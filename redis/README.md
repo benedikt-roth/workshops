@@ -3,12 +3,7 @@
 Here, we are getting started with redis using Docker on our localhost and connect to it using ioredis for Node.js.
 
 ## Getting started
-Pull the prebuild redis image using
-```
-docker pull bitnami/redis:latest
-```
-
-Run the redis docker image using
+Run the redis docker image (it will pull the latest version of the image automatically):
 ```
 docker run -d -p6379:6379 --name redis bitnami/redis:latest
 ```

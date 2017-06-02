@@ -1,0 +1,10 @@
+{
+  "name": "01_node_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^3.1.1"
+  }
+}

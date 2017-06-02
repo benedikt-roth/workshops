@@ -3,6 +3,10 @@
 Here, we are getting started with redis using Docker on our localhost and connect to it using ioredis for Node.js.
 
 ## Getting started
+### Install Docker
+Get the latest version of [Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac).
+
+### Spin off a redis container
 Run the redis docker image (it will pull the latest version of the image automatically):
 ```
 docker run -d -p6379:6379 --name redis bitnami/redis:latest

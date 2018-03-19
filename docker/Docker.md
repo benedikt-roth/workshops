@@ -75,6 +75,9 @@ Then, you just run
 apt-get update && apt-get install -y vim
 ```
 
+**Note:** The tool will be gone as soon as the container is stopped. In case you want to keep it, consider adding it to your `Dockerfile` (see [Option 2](#option-2-when-building-the-image)).
+
+
 ### Option 2: When building the image
 
 Use case: You need tools in place in every container.

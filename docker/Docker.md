@@ -39,13 +39,13 @@ docker run --name <container-name> <image-name>
 
 ## Execute commands on the container
 
-### Find your container
+**1. Find your container**
 Lists all running containers.
 ```sh
 docker ps
 ```
 
-### Access container with CLI
+**2. Access container with CLI**
 The following runs the shell (`sh`) command on the machine.
 ```sh
 docker exec -ti <container-id> sh

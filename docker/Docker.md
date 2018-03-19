@@ -51,7 +51,7 @@ docker ps
 
 **2. Access container with CLI**
 
-The following runs the shell (`sh`) command on the machine.
+The following runs the shell (`sh`) command on the container.
 ```sh
 docker exec -ti <container-id> sh
 ```
@@ -62,7 +62,7 @@ The arguments:
 
 **Example:** Import SQL dump.
 ```sh
-docker exec -ti some-mysql-db mysql -uroot < dump.sql
+docker exec -ti some-mysql-container mysql -uroot < dump.sql
 ```
 * The _dump.sql_ is lying on your host machine.
 * _mysql_ is the command being executed on the container.

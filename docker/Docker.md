@@ -15,7 +15,7 @@ docker pull <image-name>:<tag>
 
 The `<tag>` is usually the version number. For example: `docker pull redis:3.2.11`
 
-Commonly images:
+Common images:
 * [apache httpd](https://hub.docker.com/_/httpd/)
 * [mysql](https://hub.docker.com/_/mysql/)
 * [CentOS](https://hub.docker.com/_/centos/)

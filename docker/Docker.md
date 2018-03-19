@@ -1,5 +1,8 @@
 # Docker essentials
 
+Commands that you will need regularly when handling Docker containers on your machine.
+
+
 ## Install Docker
 Install from the [Docker homepage][1].
 

@@ -46,3 +46,4 @@ _**Note:**_ The emulator accelerator HAXM may not be installed right away (you m
 -----------
 
 This guide was created by [Benedikt Roßgardt](mailto:benedikt@freeletics.com) in January of 2017
+
